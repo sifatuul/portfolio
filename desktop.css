@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+ /* For desktop: */
+ .col-1 {width: 8.33%;}
+ .col-2 {width: 16.66%;}
+ .col-3 {width: 25%;}
+ .col-4 {width: 33.33%;}
+ .col-5 {width: 41.66%;}
+ .col-6 {width: 50%;}
+ .col-7 {width: 58.33%;}
+ .col-8 {width: 66.66%;}
+ .col-9 {width: 75%;}
+ .col-10 {width: 83.33%;}
+ .col-11 {width: 91.66%;}
+ .col-12 {width: 100%;}
+
+
+ /* desktop nav */
+ .nav-logo{
+    text-align: left;
+ }
+
+ .nav-logo img{
+    width: 70px;
+    padding-top: 0px;
+ }
+
+ .nav-heading h1{
+    text-align: left;
+    padding-top: px;
+    font-size: 2.8rem;
+ }
+ 
+
+ .nav-menu{
+    flex-direction: row;
+    justify-content: flex-end;
+ }
+
+ .nav-menu a{
+    background-color:transparent;
+    margin-right: 5px;
+    text-transform: uppercase;
+ }
+/* desktop nav end */
+
+/* desktop profile start */
+
+.profile .upper-cloud img{
+    right: 100px;
+    width: 120px;
+    transition: transform 2s, width 2s;
+}
+
+.profile .upper-cloud img:hover{
+    transform: rotate(360deg);
+    width: 135px;
+}
+
+.profile .lower-cloud img{
+    left: 100px;
+    width: 120px;
+    transition: transform 2s, width 2s;  
+
+}
+
+.profile .lower-cloud img:hover{
+    transform: rotate(360deg);
+    width: 135px;
+
+}
+
+.profile .decription p{ 
+    font-size: 1.2rem;
+    color: gray;
+    width: 50%;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+/* desktop profile end */
+
+/* desktop about me start */
+.about-pic{
+    margin: 0,auto;
+    margin-top: 80px;
+    padding-bottom: px;
+    
+}
+.about-pic img{
+    width: 350px;
+}
+
+.about-description{
+    text-align: left;
+    font-size: 1rem;
+    margin-top: 10px;
+    padding-left: 0px;
+}
+
+.about-description p{
+    text-align: justify;
+    margin: 15px auto;
+}
+.common-hr{
+    border-bottom: none;
+}
+/* desktop about me end */
+
+/* desktop skills start */
+.card .card-tittle{
+    margin-top: 10px;
+}
+
+.works-and-skill{
+    padding: 0px 20px;
+}
+
+.card .card-description {
+    font-size: 1.1rem;
+    margin: 2px;
+    padding: 20px;
+}
+
+.works-and-skill .card .card-description .common-hr {
+    margin: 10px;
+}
+
+.skills-container{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.card{
+    /* height: max-content; */
+    min-height: 700px;
+}
+
+/* desktop skills end */
+
+/* desktop contact me strt */
+.achivemnt-and-contact{
+    padding: 10px 25px;
+}
+.achivement .achive-description{
+    padding-right: 10px;
+
+    
+}
+
+.achivement{
+    padding: 15px 20px 20px 20px;
+}
+.achive-description p{
+    margin-bottom: 20px;
+}
+
+.contact-form input,textarea{
+    margin-bottom: 10px;
+}
+
+.contact-form{
+    padding: 15px 20px 15px 20px;
+}
+
+/* .contact-form form input,textarea:focus{
+    width: calc(100%+2);
+} */
+
+.achivemnt-and-contact .contact-form form button{
+    width: 125px;
+    font-size: 1.3rem;
+}
+.contact-form form{
+    padding: 1px;
+    width: 100%;
+}
+
+.contact-social{
+    position: relative;
+}
+
+.buttons{
+    position: absolute;
+    left: 50%;
+    padding: 0% 05%;
+    top: 50%;
+    margin-top: 180px;
+    transform: translate(-50%, -50%);
+}
+/* desktop contact me end */
+
+/* footer start*/
+.footer{
+    padding: 1%;
+}
+
+.footer .footer-nav a{
+    display: inline;
+    margin: 0px 15px;
+}
+
+.footer .copy p{
+    display: inline;
+    margin: 0px 15px;
+}
+
+.footer .copy{
+    text-align: end;
+}
+
+/* footer end */
